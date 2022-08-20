@@ -1,0 +1,405 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@500;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4{
+    font-weight: 600;
+}
+.btn.btn-danger {
+    background-color: #FF5043;
+    height: 55px;
+    width: 130px;
+    border-radius: 0px;
+    font-size: 12px;
+}
+.nav {
+    font-size: 23px;
+    color: #000;
+    
+}
+.navlogo{
+    height: 21px;
+}
+.navlogo{
+    color: #FF5043;
+}
+nav#nav {
+    padding: 0 0px 0 20px;
+}
+.nav{
+    font-size: xx-large;
+}
+.black{
+    background-color: #000000;
+    color: white;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: unset;
+    bottom: 60px;
+}
+span.carousel-control {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-control-prev {
+    left: unset;
+    right: 50px;
+}
+.carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 20px;
+}
+.leftArrow {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #FF5043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    right: 100px;
+}
+.testimoniaul p {
+    font-size: 14px;
+    margin: -10px 0 20px;
+    color: #666;
+}
+.testimoniaul h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+.billuGateImg {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimoniaul .leftArrow {
+    position: static;
+    margin: 0 auto 30px;
+}
+.testimoniaul {
+    text-align: center;
+}
+ #nav{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-family: Montserrat;
+    font-size: 50px;
+    margin: 0 0 40px;
+    
+}
+.heading .navlogo {
+    color: #FF5043;
+    font-weight: bold;
+}
+.fsize {
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+.fontsize {
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    margin: 0 0 30px;
+}
+.img{
+    background-color: #000000;
+    box-shadow: 0 2px 4px 0 rgba(169, 169, 169, 0.3);
+    /* width: 1920px;
+    height: 1035px; */
+}
+.size{
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+.borderB{
+    position: relative;
+    display: inline-block;
+    border-bottom: 0.5px solid #dbdbdb;
+    padding: 0px 0 10px;    
+    letter-spacing: 5.4px;
+}
+.line {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #ff5043;
+    bottom: -2px;
+    left: 0;
+    z-index: 9;
+}
+.local {
+    font-size: 35px;
+    letter-spacing: -0.35px;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+.local .navlogo {
+    color: red;
+    font-weight: 500;
+}
+.bground{
+    background-color:white;
+}
+.collaps{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.backcolor .card-header a {
+    font-size: 30px;
+    line-height: 1;
+    padding: 0 5px;
+    color: #000;
+}
+.backcolor{
+    background-color: rgba(0,0,0,.03);
+}
+.card-deck .card.bg-secondary {
+    background-color: #f5f5f7 !important;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 20px;
+    min-width: 22%;
+    flex: unset;
+    flex-direction: row;
+    margin-right: 5px;
+}
+.card-deck {
+    display: flex;
+    align-items: center;
+    flex-wrap: unset;
+    flex-direction: row;
+}
+.overFH{
+    overflow: hidden;
+}
+.backcolor .card-header {
+    background-color: transparent !important;
+    border-bottom: 2px solid #ddd;
+    padding: 14px 0px;
+}
+/* common css for all pages */
+.paddTB60 {
+    padding: 100px 0;
+}
+
+.DisFC{
+    display: flex;
+    align-items: center;
+}
+.width100{
+    width: 100%;
+}
+.localSection img {
+    width: 400px;
+}
+/*=================== service section css ================*/
+.designList {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-link{
+    
+        z-index: 1;
+        position: relative;
+    
+}
+.serviseImage{
+    margin-top: -120px;
+}
+.designList h4 {
+    background-color: #fff9c3;
+    width: 48%;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding: 0 12px;
+    margin: 0 0 10px;
+}
+.card-body {
+    padding: 1.25rem 0;
+}
+
+/* industry page css     */
+.bannerImg {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.testimoniaul {
+    width: 700px;
+    background-color: #F5F5F7;
+    padding: 40px;
+    border-radius: 10px;
+    margin: -170px auto 0px;
+    z-index: 0;
+    position: relative;
+}
+/* blog section css */
+.secParent {
+    display: flex;
+    justify-content: space-between;
+}
+.leftDiv, .rightDiv {
+    width: 49%;
+    height: 500px !important;
+}
+.cardText {
+    padding: 0 0 0 20px;
+}
+.secParent .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 243px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #f5f5f7;
+    border: none;
+}
+.secParent .leftDiv .card{
+    height: 100%;
+}
+.rightDiv .card:first-child{
+    margin: 0 0 14px;
+}
+/* our globle resarch */
+.OurWorkSec h1 {
+    font-size: 45px !important;
+    font-weight: 500 !important;
+}
+.OurWorkSec p.size {
+    font-size: 16px;
+}
+.backGroundImage.OurWorkSec {
+    border-radius: unset;
+}
+.Image {
+    width: 20%;
+    text-align: center;
+}
+.Image img{
+    width: 130px;
+}
+.ourClientImage {
+    margin: 50px 0 0;
+}
+.blackWhite{
+    filter: invert(50%);
+}
+.backGroundImage {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+.backGroundImage .cardText {
+    position: absolute;
+    color: #fff;
+    padding: 40px;
+    bottom: 0;
+}
+.height100{
+    height: 100%;
+}
+.cardText h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.backGroundImage p, .backGroundImage h1 {
+    color: white;
+    font-size: 12px;
+}
+.cardText p{
+ 
+    font-size: 12px;
+}
+/* footer style */
+.footerTextBolt {
+    font-size: x-large;
+}
+.testimoniaul .cardTextColor{
+    color: red;
+}
+.cardImage {
+    margin: 10px 0 20px;
+    width: 90px;
+}
+.disFCSB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 34px 0 -30px;
+}
+.arrowIcon {
+    margin: -25px 0 0;
+    color: #666;
+}
+.arrowIcon .fa {
+    margin: 0px 0 0 20px;
+}
+i.fa.fa-play-circle-o {
+    font-size: 15px;
+}
+.colImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-deck .fontsize {
+    margin: 0;
+    text-align: left;
+}
+.card-text {
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+.footerSection .footerTextBolt {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.footerSection p {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.footerSection i.fa {
+    font-size: 25px;
+    margin: 0 20px 0 0;
+    color: #999;
+}
